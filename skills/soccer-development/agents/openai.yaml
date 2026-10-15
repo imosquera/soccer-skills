@@ -1,0 +1,4 @@
+interface:
+  display_name: "Levi's Soccer Coach"
+  short_description: "Build and track your 12-week soccer plan"
+  default_prompt: "Use $soccer-development to start my 12-week plan."

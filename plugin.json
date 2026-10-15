@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "support@bayjumpers.com",
+    "name": "Isaac Mosquera"
+  },
+  "description": "Build and track a 12-week soccer plan for resilience, physicality, strength, and technique.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Start my 12-week plan.",
+          "Review my week.",
+          "Help with a setback."
+        ],
+        "developerName": "Isaac Mosquera",
+        "displayName": "Levi's Soccer Coach",
+        "longDescription": "Build a realistic 12-week soccer development plan through a short interview, four measurable goals, and weekly check-ins. Work on emotional resilience, physicality, strength, and technical skills with training adapted to your workload, resources, recovery, and supervision. Save a compact progress summary to resume later. For players ages 13 and older in the United States; users under 18 need parent or guardian permission. Free, with no purchases or paid services. The plugin has no external server or separate progress database and does not provide medical advice or return-to-play clearance.",
+        "shortDescription": "A 12-week soccer plan",
+        "logo": "./assets/soccer-ball.svg",
+        "composerIcon": "./assets/soccer-ball.svg",
+        "websiteURL": "https://levis-soccer-coach.welljelly17.chatgpt.site/",
+        "supportURL": "https://levis-soccer-coach.welljelly17.chatgpt.site/support/",
+        "privacyPolicyURL": "https://levis-soccer-coach.welljelly17.chatgpt.site/privacy/",
+        "termsOfServiceURL": "https://levis-soccer-coach.welljelly17.chatgpt.site/terms/"
+      },
+      "publication": {
+        "countries": [
+          "US"
+        ],
+        "release_notes": "Initial public release with a 12-week soccer development workflow, weekly check-ins, ages 13+ audience requirements, and published support, privacy, and terms pages."
+      },
+      "review": {
+        "commerce": false,
+        "commerce_description": "Free to use. No purchases or paid services."
+      }
+    }
+  },
+  "name": "levis-soccer-development-coach",
+  "version": "1.0.2"
+}

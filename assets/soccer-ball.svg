@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Soccer ball</title>
+  <defs>
+    <clipPath id="ball"><circle cx="256" cy="256" r="224"/></clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="224" fill="#ffffff"/>
+  <g clip-path="url(#ball)" stroke="#17212b" stroke-width="8" stroke-linejoin="round">
+    <g fill="none">
+      <path d="M256 180V94M328 232l81-27M301 317l50 69M211 317l-50 69M184 232l-81-27"/>
+      <path d="M218 68L121 112 80 166M294 68l97 44 41 54M447 242l-12 105-39 69M322 443l-66 25-66-25M116 416l-39-69-12-105"/>
+    </g>
+    <g fill="#17212b">
+      <path d="M256 180l72 52-27 85h-90l-27-85z"/>
+      <path d="M218 25h76l12 46-50 36-50-36z"/>
+      <path d="M453 143l39 67-33 40-58-19-1-62z"/>
+      <path d="M419 411l-61 45-46-24v-62l59-19z"/>
+      <path d="M154 456l-61-45 48-60 59 19v62z"/>
+      <path d="M20 210l39-67 53 26-1 62-58 19z"/>
+    </g>
+  </g>
+  <circle cx="256" cy="256" r="224" fill="none" stroke="#17212b" stroke-width="12"/>
+</svg>
